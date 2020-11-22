@@ -13,14 +13,14 @@
 
 ## Further Analysis
 
-* The steps included are:
-  1. Visit the website with the link given and then right click and choose 'view source page' option.
-  2. Then scroll down through the source page and you will find 3rd part of the flag given as html comments 
-  **<!-- The third part of the flag : "_challenge}" -->**.
-  3. Now reading the source code from beginning you will find a link "css/main.css" open it and scroll to last to find 2nd part of the flag as comments 
-  ** /* The second part of the flag : "15_a_warm_up" */ **
-  4. Back to the source page you will find a link "js/main.js" open it and scroll to last to find 1st part of the flag as comments in java script
-  ** /* The first part of the flag : "inctfj{7his_" */ **
+1. The steps included are:
+   1. Visit the website with the link given and then right click and choose 'view source page' option.
+   2. Then scroll down through the source page and you will find 3rd part of the flag given as html comments 
+   ** The third part of the flag : "_challenge}" **.
+   3. Now reading the source code from beginning you will find a link "css/main.css" open it and scroll to last to find 2nd part of the flag as comments 
+   ** The second part of the flag : "15_a_warm_up" **
+   4. Back to the source page you will find a link "js/main.js" open it and scroll to last to find 1st part of the flag as comments in java script
+   ** The first part of the flag : "inctfj{7his_" **
   
 ## Flag
 inctfj{7his_15_a_warm_up_challenge}
